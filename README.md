@@ -11,7 +11,7 @@ Welcome to ChatMate, a simple chatbot powered by DialoGPT model and Gradio inter
 ## How to Use
 
 1. **Open the chatbot**.
-2. **Type anything** in the **Question** box (e.g., 'hello', 'What is AI?', 'calculate 9 * 7', 'bye', etc.).
+2. **Type anything** in the **User's Input** box (e.g., 'hello', 'What is AI?', 'calculate 9 * 7', 'bye', etc.).
 3. **For calculations**, use the following operators:
     - `+` for addition
     - `-` for subtraction
