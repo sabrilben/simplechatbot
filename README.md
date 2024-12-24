@@ -41,12 +41,10 @@ Here's a brief explanation of what the code does:
 
 ## Installation
 
-To run this project, you'll need to install the following libraries:
+To run this project, you'll need to install several libraries. Just make sure you have the requirements.txt and run this code in terminal:
 
 ```bash
-pip install transformers
-pip install gradio
-pip install torch
+pip install -r requirements.txt
 ```
 
 ## Running the Chatbot
