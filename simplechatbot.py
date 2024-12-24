@@ -118,7 +118,7 @@ desc = "Your friendly chatbot powered by DialoGPT and Gradio. Let's chat! (pleas
 
 article = "<h3>How to Use:</h3> " \
           "<ol><li>Open the chatbot.</li> " \
-          "<li>Type anything in the <strong>Question</strong> box (e.g., 'hello', 'What is AI?', 'calculate 9 * 7', 'bye', etc.).</li>" \
+          "<li>Type anything in the <strong>User's Input</strong> box (e.g., 'hello', 'What is AI?', 'calculate 9 * 7', 'bye', etc.).</li>" \
           "<li>For calculations, use the following operators:" \
           "<ul><li>+ for addition</li>" \
           "<li>- for subtraction</li>" \
@@ -131,7 +131,7 @@ article = "<h3>How to Use:</h3> " \
           "<h5>The chatbot will respond to your queries.</h5>"
 
 demo = gr.Interface(fn=chatbot_response,
-                    inputs=gr.Textbox(label="User", placeholder="Say something pleaseee..."),
+                    inputs=gr.Textbox(label="User's Input", placeholder="Say something pleaseee..."),
                     outputs=gr.Textbox(label="Conversation"),
                     title="ChatMate!",
                     description=desc,
